@@ -66,7 +66,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/api/products HTTP/1.1
+POST https://nxapi-mongodb-three.vercel.app/api/products HTTP/1.1
 content-type: application/json
 
 { 
@@ -77,7 +77,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/api/products HTTP/1.1
+POST https://nxapi-mongodb-three.vercel.app/api/products HTTP/1.1
 content-type: application/json
 
 { 
@@ -88,17 +88,17 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/products HTTP/1.1
+GET https://nxapi-mongodb-three.vercel.app/api/products HTTP/1.1
 content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/users/67aef8b882fa0e83982d4d4c HTTP/1.1
+GET https://nxapi-mongodb-three.vercel.app/api/products/67aef8b882fa0e83982d4d4c HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/users/67aef9ef43d16e148b1143ad HTTP/1.1
+PUT https://nxapi-mongodb-three.vercel.app/api/products/67aef9ef43d16e148b1143ad HTTP/1.1
 content-type: application/json
 
 { 
@@ -109,6 +109,6 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:3000/api/users/67aefb2243d16e148b1143af HTTP/1.1
+DELETE https://nxapi-mongodb-three.vercel.app/api/products/67aefb2243d16e148b1143af HTTP/1.1
 content-type: application/json
 

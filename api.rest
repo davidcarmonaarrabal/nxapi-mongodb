@@ -62,3 +62,53 @@ content-type: application/json
 
 DELETE https://nxapi-mongodb.vercel.app/api/users/6542da35c20d9ad95c739702
 content-type: application/json
+
+
+###
+
+POST http://localhost:3000/api/products HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pokémon Battle Deck Charizard ex", 
+    "precio": 35,
+    "tipo": "Mazo preconstruido"
+}
+
+###
+
+POST http://localhost:3000/api/products HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pokémon Prismatics Evolutions ETB", 
+    "precio": 55,
+    "tipo": "Caja de sobres"
+}
+
+###
+
+GET http://localhost:3000/api/products HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/api/users/67aef8b882fa0e83982d4d4c HTTP/1.1
+content-type: application/json
+
+###
+
+PUT http://localhost:3000/api/users/67aef9ef43d16e148b1143ad HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pokémon Battle Deck Charizard ex", 
+    "precio": 30,
+    "tipo": "Mazo preconstruido"
+}
+
+###
+
+DELETE http://localhost:3000/api/users/67aefb2243d16e148b1143af HTTP/1.1
+content-type: application/json
+
